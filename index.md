@@ -1,4 +1,4 @@
-## Welcome to Shubhendu's Presentation Logics Page
+## Welcome to Pournima's Presentation Logics Page
 All my work on HTML CSS & JS. 
 
 ### Link to My HTML CSS & JS Projects
@@ -33,21 +33,5 @@ All my work on HTML CSS & JS.
 ```
 
 
--[**Site 1 Link**](websites/Site 1/htmlfive.html) 
+-[**Site 1 Link**](websites/Site 1/html.html) 
 ![Site-1](/images/website1.png)
-
--[**Site 2 Link**](websites/Site 2/flowers.html)
-![Site-2](/images/site2.png)
-
--[**Site 3 Banking Project Link**](websites/Site 3/index_sign-in.html)
-
-Use **Username** shubhendu and **Password** abc123
-
-**Login Page**
-![Site-3](/images/site3_login.png)
-**Register Page**
-![Site-3](/images/site3_register.png)
-**Home Page**
-![Site-3](/images/site3_home.png)
-**Banking Page**
-![Site-3](/images/site3_transactionspage.png)
