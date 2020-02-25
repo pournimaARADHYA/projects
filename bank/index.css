@@ -1,0 +1,119 @@
+.one{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    border: solid;
+    height: 100px;
+    width: 1321px;
+}
+.two{
+    border: solid;
+    display: flex;
+}
+.tab{
+    border: solid;
+    height: 510px;
+    width: 200px;
+}
+.acc{
+color: rgb(73, 59, 12);
+}
+.tablinks{
+    border-radius: 60px;
+    border-color: brown;
+}
+.cont{
+    border: solid;
+    height: 510px;
+    width: 1200px;
+    opacity: 0.5px;
+}
+.footer{
+    border: solid black;
+    background-color: black;
+    color: whitesmoke;
+}
+#imgHed{
+    height: 80px;
+    width: 110px;
+    padding: 10px;
+}
+.t1{
+    font-weight: 1000px;
+    padding: 20px;
+    margin-top: -80px;
+    
+}
+/* table,th{
+    border: solid;
+    border-collapse:inherit;
+} */
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: solid rgb(226, 95, 20);
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    height: 124.5px;
+    width: 199px;
+    color: cornsilk;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: rgb(13, 13, 71);
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: rgb(85, 75, 75,1);
+    opacity: 1;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: rgb(28, 129, 28);
+    opacity: 1;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    height: 500px;
+    background-color:rgba(98, 183, 243, 0.685);
+    /* opacity: 0.8px; */
+    /* z-index: 2; */
+}
+
+/* ---validated--- */
+#mySelect{
+    padding: 10px;
+    margin: 10px;
+}
+#deposit{
+    border: solid;
+    width: 400px;
+}
+#withdraw{
+    border: solid;
+    width: 400px;
+}
+#displayblock{
+    position: relative;
+    height:100px;  
+    background-color: white;
+    color:black;
+}
+#displayblock1{
+    position: relative;
+    height:100px;  
+    background-color: white;
+    color:black;
+}
+
