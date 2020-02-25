@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OATH Bank</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="one">
+        <div class="one" style="border-color: whitesmoke;background-color: whitesmoke;"><header style="height: 50px;">
+            <!-- <span style="font-size: 30px;font-weight: 700;"> OATH Bank</span> -->
+            <span style="float: left;padding: 5px;">
+                
+                <img src="oath.jpg" style="height: 40px;width: 45px;">
+                <span style="padding: 15px;font: 20px;font-size: 20px;">OATH BANK</span>
+            </span>
+        </header></div class="one">
+        <nav class="one"><nav class="one" style="border-color: rgba(49, 49, 180, 0.801);background-color: rgba(49, 49, 180, 0.801);"><marquee behavior="scroll" direction="left" style="color: whitesmoke;">OATH BANK never asks for confidential information such as PIN and OTP from customere.
+            | Any such call can be made only by a fraudster. | Please do not share personal info</marquee></nav></nav>
+    <div class="two" style="background-image:url(IMG-20191225-WA0010.jpg);opacity: 0.8;;">
+        
+        <div class="tab">
+            <section class="three">
+            <div style="background-image:url(IMG-20191225-WA0010.jpg); opacity: 0.8;">
+                <button class="tablinks" onclick="openPage(event, 'Account')"><span class="acc">Account Details</span></button>
+                <button class="tablinks" onclick="openPage(event, 'Transaction')"><span class="acc">Transaction</span></button>
+                <button class="tablinks" onclick="openPage(event, 'TransactionDetails')"><span class="acc">Transaction-Details</span></button>
+                <a href="html1.html"><button class="tablinks" onclick="openPage(event, 'Logout')">Logout</button></a>
+                <script src="cal.js"></script>
+            </div>
+        </section> </div>
+        <div class="cont">
+            <div id="Account" class="tabcontent">
+                <fieldset style="border-radius: 10px;">
+                    <legend style="font-size: 25px;">Details</legend>
+                    <center>
+                    <pre style="font-size: 30px;">    User-Name : <span id="four"></span></pre>
+                    <pre style="font-size: 30px;">Account-Number : <span id="six"></span></pre>
+                    <pre style="font-size: 30px;" >     IFSC-Code : <span id="eight"></span></pre>
+                    <!-- Available-Balance<span id="five"></span><br> -->
+                    </center>
+                </fieldset>
+            </div>
+            <div id="Transaction" class="tabcontent">
+                <fieldset style="border-radius: 10px;width:700px;height: 450px;margin-left: 140px;margin-right: 200px ;font-size:larger;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color:black;">
+                    <legend> Deposition/Withdrawal Form</legend>   
+                    <br>
+                    Available Balance:<input type="button" value="1000" id="five" style="border-radius: 10px;height: 22px;width: 65px;">
+                     <!-- <span id="availbal"></span> -->
+                    <br><br>
+                     Deposit:<input type="radio"  value="Deposit"name="Transaction" id="two">
+                     Withdrawl:<input type="radio" value="Withdrawl"name="Transaction" id="three">
+                     <br><br>
+                    Description:
+                     <!-- <input type="text" id="ten" value=""><br><br><br> -->
+                     <select name="" id="ten" style="height: 22px;width: 100px;border-radius: 10px;">
+
+                         <option>------</option>
+                         <option value="loan">loan</option>
+                         <option value="hospital">hospital</option>
+                         <option value="education">education</option>
+                         <option value="insurence">insurence</option>
+                         <option value="party">party</option>
+                         <option value="others">others</option>
+                     </select><br><br>
+                     Amount:<input type="text" id="nine" style="height: 15px;width: 100px;border-radius: 10px;">
+                     <br><br>
+                     
+                     <button style="background-color:rgb(40, 201, 40);width: 80px;border-radius: 10px;border-color:rgb(40, 201, 40); "id="seven" onclick="validate()">submit </button><span style="color: red;" id="baby"></span>
+                  </fieldset>
+                  <script>
+                    document.getElementById("four").innerHTML=localStorage.getItem("username") 
+                    document.getElementById("eight").innerHTML=localStorage.getItem("ifsc")
+                    document.getElementById("six").innerHTML=localStorage.getItem("accnum")
+                    // document.getElementsByClassNames("eight").innerHTML=localStorage.getItem("ifsc")
+                    // document.getElementsByClassNames("four").innerHTML=localStorage.getItem("username") 
+                    // document.getElementsByClassNames("six").innerHTML=localStorage.getItem("accnum")
+                    </script>
+                  
+            </div>
+            <div id="TransactionDetails" class="tabcontent">
+                <div class="parallax">
+                    <p style="font-family: fantasy; letter-spacing: 3px;"> Current Balance: <span id="availbal"></span></p>
+                    <table style="float: left;"> 
+                            <th>Debit</th>
+                            <th>Description</th>
+                            <th>Available Amount</th>
+                            <th>Date</th>
+                    </table>s
+                    <table style="float: right;margin-right: 260px;">
+                            <th>Credit</th>
+                            <th>Description</th>
+                            <th>Available Amount</th>
+                            <th>Date</th>
+                    </table>
+                </div>
+            </div>
+            <script src="index.js"></script>
+        </div>
+    </div>
+    <div class="footer">&copy;OATH Bank - Our Promice </div>
+    </div>
+</body>
+</html>

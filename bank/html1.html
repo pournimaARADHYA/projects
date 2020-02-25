@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="cs1.css">
+
+</head>
+<body>
+    <div class="one">
+        <div class="one" style="border-color: whitesmoke;background-color: whitesmoke;"><header style="height: 60px;">
+            <img src="oath.jpg" style="height: 55px;width: 55px;">
+            <span style="font-size: 30px;font-weight: 700;"> OATH Bank</span>
+            <span style="float: right;padding: 5px;">
+                <!-- <span style="padding: 15px;font: 20px;font-size: 20px;">OATH BANK</span> -->
+            </span>
+        </header>
+    </div class="one">
+    <div class="two">
+            <div>
+                <section class="three">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openPage(event, 'Home')">Home</button>
+                        <button class="tablinks" onclick="openPage(event, 'Contact')">Contact</button>
+                        <button class="tablinks" onclick="openPage(event, 'Loan')">Loan</button>
+                        <button class="tablinks" onclick="openPage(event, 'login')">LOGIN</button>
+                        <script src="cal.js"></script>
+                    </div>
+                    <center><h3 style="color: orangered;">Notifications</h3></center>
+                        <p class="notifications">
+                            <marquee  direction="up" scrollamount="2" height="210px"  >
+                                <ul >
+                                    <li><a href="">OATH BANK never asks for confidential information such as PIN and OTP from customere.</a></li>
+                                    <li><a href="">| Any such call can be made only by a fraudster. | Please do not share personal info</a></li>
+                                </ul>
+                            </marquee>
+                        </p>
+                </section>      
+            </div>
+            <div> 
+                <article  class="four" style="background-image: url(download.jpg);background-repeat:no-repeat;background-size: cover;margin-top: -20px;">
+                    <center><h1>Welcome to OATH Bank</h1></center>
+                    <div id="Home" class="tabcontent">
+                        <h1>OATH Bank Welcomes You !!</h1>
+                        OATH Bank will heartly welcome you. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti 
+                        delectus, fugit alias exercitationem vel explicabo beatae ducimus assumenda veritatis praesentium ex rerum
+                        maiores, eligendi doloribus pariatur placeat provident, iusto aperiam. Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Ratione, sint cum laborum inventore possimus aliquid? 
+                        Enim dolore aperiam obcaecati eius sit, eos, maiores optio, illum expedita cum totam nisi architecto!
+                    </div>
+                    <div id="Contact" class="tabcontent">
+                        <h4>OATH BANK -our Promice <br>
+                        No. 73, 2nd and 3rd Floor, Ward No. 65, Bank Office/Official Colony HBCS,<br>
+                         above Domino’s Pizza, Maruthi HBCS Layout, BTM Layout, Bengaluru, Karnataka 560076</h4>
+                        <h3>Contact:</h3><h4>9620220022</h4>
+                    </div>
+                    <div id="Loan" class="tabcontent">
+                        <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Non est, vitae earum eveniet soluta itaque, expedita sit dolorem quis 
+                        iste ullam dolores ipsum, aperiam voluptate nesciunt veniam dicta provident
+                        quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo est delectus consectetur,
+                        quae, modi officiis corporis nostrum commodi corrupti ut a quasi.
+                        Beatae quae iure atque deleniti enim sed quisquam?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi laudantium beatae consectetur, amet vero ad similique consequatur cupiditate.
+                        Vel sapiente necessitatibus iusto at quis cum nostrum sunt commodi repellat consequuntur?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae molestiae officiis, 
+                        doloribus architecto soluta quidem praesentium itaque quibusdam quisquam esse sed 
+                        repellat eaque, earum dolore, repudiandae consequuntur iste culpa ullam.</h5>
+                    </div>
+                    <div id="login" class="tabcontent" >
+                        <form onsubmit="return logIn()" action="index.html" autocomplete="off" ><center>
+                        <fieldset style="border: solid;height: 180px;width: 600px;border-radius: 10px;">
+                        <legend>Login</legend>
+                        Username <input type="text" id="nam" style="width: 300px;height: 40px;border-radius: 10px;  "><span id="msgname" style="color: red;"></span><br>
+                        password <input type="password" id="pass" style="width: 300px;border-radius: 10px;"><span id="msgpass" style="color: red;"></span><br>
+                        <pre><input type="submit" id="su" style="border-radius: 10px;background-color: green;border-color: green;"> <input type="reset" style="border-radius: 10px;"></pre></fieldset></center></form>
+                        <script src="caseValidate.js"></script>
+                    </div>
+                </article>
+                <aside  class="five" style="margin-top: 20px;">
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                          <div class="numbertext">1 / 3</div>
+                          <img src="IMG-20191225-WA0008.jpg" style="width:1139px;vertical-align: middle;height: 290px;">
+                          <div class="text">OATH THE PROMICE</div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">2 / 3</div>
+                          <img src="IMG-20191225-WA0006.jpg" style="width:1139px;vertical-align: middle;height: 290px;">
+                          <div class="text">OATH BANK- WE PROMICE</div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">3 / 3</div>
+                          <img src="IMG-20191225-WA0005.jpg" style="width:1139px;vertical-align: middle;height: 290px;">
+                          <div class="text">OATH BANK- WE PROMICE</div>
+                        </div>
+                        
+                    </div>
+                    <div style="text-align:center">
+                        <span class="dot"></span> 
+                        <span class="dot"></span> 
+                        <span class="dot"></span> 
+                    <div>
+                    <script src="cal.js"></script>   
+                </aside>
+            </div>
+        </div>
+        <footer class="one">&copy;OATH Bank - Our Promice </footer>
+    </div>
+</body>
+</html>

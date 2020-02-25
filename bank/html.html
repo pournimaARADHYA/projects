@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bank Online</title>
+    <link rel="stylesheet" href="cs.css">
+</head>
+<body>
+    <form onsubmit="return Validate()" action="html1.html" autocomplete="off">
+    <div class="body-main" >
+    <div>
+        <center><h1>Registration Form</h1></center>
+    </div>
+    <div class="form-main" >
+        <fieldset style="width: 550px; background-color:transparent;background-color:rgba(124, 85, 85, 0.445);border-radius: 20px;">
+        <div>
+            <fieldset><legend>User-Name</legend>
+            <input type="text" class="one" id="na"></fieldset></div><span id="msgna" style="color: red;"></span><br>
+        <div><fieldset><legend>Account-Number</legend>
+            <input type="text"class="one" id="accNum"></fieldset></div><span id="msgacc" style="color: red;"></span><br>
+        <div><fieldset><legend>IFC-Code</legend>
+            <input type="text"class="one" id="ifc"></fieldset><span id="msgifc" style="color: red;"></span></div><br>
+        <div><fieldset><legend>Gender</legend>
+            male<input type="radio" class="two" name="gender" id="gen" value="male" >female <input type="radio" class="two" name="gender" id="gen" value="female"></fieldset></div><br>
+        <div><fieldset><legend>Password</legend>
+            <input type="password"class="one" id="pw"></fieldset><span id="msgpw" style="color: red;"></span></div><br>
+        <div><fieldset><legend>Confirm-Password</legend>
+            <input type="password"class="one" id="cpw"></fieldset><span id="msgcpw" style="color: red;"></span></div><br>
+        <div><fieldset><legend>email-id</legend>
+            <input type="text"class="one" id="emid"></fieldset><span id="msgemid" style="color: red;"></span></div><br>
+    </fieldset> 
+    </div>
+    <div><center><br><pre><input type="submit" value="submit"style="width: 150px;border-radius:5px;background-color:green;border-color:green;height:30px;" >         <input type="reset" style="width: 150px;"></pre></center></div><br>
+    </div>
+    </form>
+    <script src="caseValidate.js"></script>
+</body>
+</html>
